@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Delicious</string>
     <string name="loading">loading text</string>
+    <string name="slogan">Connect to Delicious :</string>
 </resources>
