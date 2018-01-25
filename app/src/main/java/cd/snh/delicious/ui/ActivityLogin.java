@@ -37,7 +37,7 @@ public class ActivityLogin extends AppCompatActivity{
         phone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent signIn=new Intent(ActivityLogin.this , Login.class );
+                Intent signIn=new Intent(ActivityLogin.this , PhoneAuthActivity.class );
                 startActivity(signIn);
             }
         });

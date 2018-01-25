@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="4dp">
+            <ImageView
+                android:id="@+id/imageview"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                android:padding="4dp"
+                />
+            <TextView
+                android:id="@+id/txtNameFood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Frittes et 1/4 de poulet"
+                android:textStyle="bold"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="5dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="18dp"
+                android:layout_toRightOf="@id/imageview"
+                android:textColor="@color/colorAccent"
+                />
+
+            <TextView
+                android:id="@+id/txtDetails"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="Goûter sur nos frites et poulet "
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/txtNameFood"
+                android:layout_toRightOf="@id/imageview"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="#c33c15"/>
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Prix : 5.00  USD($)"
+                android:layout_marginLeft="5dp"
+                android:layout_below="@id/txtDetails"
+                android:layout_toRightOf="@id/imageview"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="#f05100"/>
+           <TextView
+                android:id="@+id/txtCommander"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Commander"
+               android:layout_marginLeft="150dp"
+                android:layout_below="@id/txtPrice"
+                android:layout_toRightOf="@id/imageview"
+                android:layout_toEndOf="@id/imageview"
+                android:textColor="#11c"
+                android:textStyle="italic"
+               android:gravity="center"
+               android:background="@color/colorPrimary"
+               />
+
+
+        </RelativeLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

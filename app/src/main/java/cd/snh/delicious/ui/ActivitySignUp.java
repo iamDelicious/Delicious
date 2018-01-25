@@ -38,7 +38,7 @@ public class ActivitySignUp extends AppCompatActivity {
         edtName=(MaterialEditText)findViewById(R.id.edtName);
         btnConnect=findViewById(R.id.btnConnect);
 
-//Firebase Initialization
+        //Firebase Initialization
         final FirebaseDatabase database=FirebaseDatabase.getInstance();
         final DatabaseReference jsonUser=database.getReference("User");
 
